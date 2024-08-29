@@ -1,0 +1,22 @@
+body {
+    background-color: #191724;
+    color: #e0def4;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .background-bigbox {
+    background-color: #191724;
+  }
+  
+  .background-header-box {
+    background-color: #26233a;
+    padding: 25px;
+    /* margin-top: 20px; */
+    border-radius: 8px;
+  }
+  
+  .background-box {
+    background-color: #1f1d2e;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
