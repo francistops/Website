@@ -1,0 +1,31 @@
+body {
+  background-color: #191724;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+
+body > main > center > p {
+  color: #e0def4;
+}
+
+body > main > center > h1 {
+  text-transform: uppercase;
+  color: #eb6f92;
+  font-size: 48px;
+}
+
+body > main > center > h3 > a {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #191724;
+  background-color: #eb6f92;
+  text-decoration: none;
+  padding: 1px 5px;
+  border: 1px solid #eb6f92;
+  border-radius: 5px;
+}
+
+.avatar {
+  background-color: #bf00ff;
+}
