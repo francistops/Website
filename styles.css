@@ -41,37 +41,6 @@ body {
   font-family: Oswald, Arial, sans-serif;
   color: var(--textColor);
 }
-/* body.dark-mode {
-  background-color: var(--boxColorlight);
-  color: var(--textColorLight);
-} */
-
-/* #dark-mode {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background-color: rgba(38, 35, 58, 0.5);
-  border: 2px solid var(--impactColor);
-  border-radius: 8px;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 1.2rem;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
-} */
-
-/* body.dark-mode #dark-mode {
-  background-color: rgba(242, 233, 222, 0.5);
-  border: 2px solid var(--impactColorLight);
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
-} */
-
-/* #dark-mode:hover {
-  background-color: var(--hoverColor);
-} */
-
-/* body.dark-mode #dark-mode:hover {
-  background-color: var(--hoverColorLight);
-} */
 
 header {
   padding: 15px 20px;
@@ -90,17 +59,9 @@ a {
   text-decoration: none;
 }
 
-/* body.dark-mode a {
-  color: var(--impactColorLight);
-} */
-
 a:hover {
   color: var(--hoverColor);
 }
-
-/* body.dark-mode a:hover {
-  color: var(--hoverColorLight);
-} */
 
 main {
   padding: 8px;
@@ -108,11 +69,6 @@ main {
   background-color: var(--boxColor);
   border-radius: 8px;
 }
-
-/* body.dark-mode main {
-  background-color: var(--bgColorlight);
-  color: var(--textColorLight);
-} */
 
 .greetbox {
   background-color: var(--contactBoxColor);
@@ -123,10 +79,6 @@ main {
   border-top-right-radius: 8px;
 }
 
-/* body.dark-mode .greetbox {
-  background-color: var(--contactBoxColorlight);
-} */
-
 .contact {
   background-color: var(--bgColor);
   text-align: center;
@@ -135,10 +87,6 @@ main {
   border-bottom-left-radius: 8px;
 }
 
-/* body.dark-mode .contact {
-  background-color: var(--boxColorlight);
-} */
-
 #resume {
   padding-left: 16px;
 }
@@ -146,10 +94,6 @@ main {
 h1 {
   font-size: 2.4rem;
   color: white;
-}
-
-body.dark-mode h1 {
-  color: black;
 }
 
 h1,
@@ -165,10 +109,6 @@ h2 {
   padding-top: 4px;
   display: inline-block;
   text-align: center;
-}
-
-body.dark-mode h2 {
-  color: var(--impactColorLight);
 }
 
 h3 {
@@ -189,9 +129,6 @@ h4 {
   /* border-radius: 16px; */
 }
 
-body.dark-mode .exp_list {
-  border-left: 4px solid #dfdad9;
-}
 .exp_list ul {
   margin-left: 20px;
   margin-bottom: 8px;
@@ -216,10 +153,6 @@ ul {
   border-top-left-radius: 8px;
 }
 
-body.dark-mode .contact2 {
-  background-color: var(--boxColorlight);
-}
-
 .greetbox2 {
   text-align: center;
   background-color: var(--contactBoxColor);
@@ -227,10 +160,6 @@ body.dark-mode .contact2 {
   border-bottom-left-radius: 8px;
   padding-bottom: 20px;
   padding-top: 20px;
-}
-
-body.dark-mode .greetbox2 {
-  background-color: var(--contactBoxColorlight);
 }
 
 a[href="#top"],
@@ -252,24 +181,10 @@ a[href="index.html"] {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
 }
 
-body.dark-mode a[href="#top"],
-body.dark-mode a[href="test.html"],
-body.dark-mode a[href="index.html"] {
-  color: var(--impactColorLight);
-  background-color: rgba(242, 233, 222, 0.5);
-  border: 2px solid var(--impactColorLight);
-}
-
 a[href="#top"]:hover,
 a[href="test.html"]:hover,
 a[href="index.html"]:hover {
   background-color: var(--hoverColor);
-}
-
-body.dark-mode a[href="#top"]:hover,
-body.dark-mode a[href="test.html"]:hover,
-body.dark-mode a[href="index.html"]:hover {
-  background-color: var(--hoverColorLight);
 }
 
 a[href="test.html"],
