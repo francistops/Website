@@ -200,9 +200,12 @@ a[href="#top"]:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 8px;
+  gap: 20px;
 }
 
+article {
+  margin-right: 100px
+}
 
 article:nth-child(1) {
   grid-row: span 2 / span 2;
@@ -220,7 +223,7 @@ article:nth-child(5) {
   grid-row-start: 3;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   body {
     max-width: 100%;
   }
@@ -249,5 +252,9 @@ article:nth-child(5) {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+  }
+
+  article {
+    margin-right: 16px;
   }
 }
