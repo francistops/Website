@@ -74,11 +74,13 @@ h1,
 h2 {
   text-transform: uppercase;
 }
+
 h1,
 h2,
 h3 {
   font-family: Oswald;
 }
+
 h2 {
   color: var(--impactColor);
   font-size: 1.6rem;
@@ -111,7 +113,7 @@ ul {
   padding-left: 20px;
 }
 
-.greetbox {
+#greetbox {
   background-color: var(--contactBoxColor);
   padding-bottom: 20px;
   padding-top: 20px;
@@ -187,8 +189,38 @@ a[href="#top"]:hover {
   background-color: var(--hoverColor);
 }
 
-/* Responsive Design */
-@media (max-width: 800px) {
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px;
+}
+
+
+article:nth-child(1) {
+  grid-row: span 2 / span 2;
+}
+
+article:nth-child(3) {
+  grid-column-start: 2;
+}
+
+article:nth-child(4) {
+  grid-row-start: 3;
+}
+
+article:nth-child(5) {
+  grid-row-start: 3;
+}
+
+@media (max-width: 1200px) {
   body {
     max-width: 100%;
   }
@@ -211,5 +243,11 @@ a[href="#top"]:hover {
 
   h4 {
     font-size: 0.9rem;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
